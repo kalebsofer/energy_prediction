@@ -8,10 +8,10 @@ Assessing the value of energy efficiency improvements can be challenging as ther
 The competition challenges us to build these counterfactual models across four energy types based on historic usage rates and observed weather. The dataset includes three years of hourly meter readings from over one thousand buildings at several different sites around the world.
 
 ### Connecting to gcp:
-Data for this project was uploaded from kaggle to a GCP bucket.
+Data for this project was uploaded from kaggle to a GCP bucket. To connect to the bucket, you will need to install the gcloud sdk and authenticate:
 - gcloud init
 - gcloud auth list 
-- gcloud config set account kalebsofer@gmail.com
+- gcloud config set account <your_gcloud@account.com>
 - gcloud config set project PROJECT_ID
 
 ### Installing requirements
